@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		FF01153E1E1C9B2C00F11B26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF01153D1E1C9B2C00F11B26 /* AppDelegate.swift */; };
-		FF0115401E1C9B2C00F11B26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF01153F1E1C9B2C00F11B26 /* ViewController.swift */; };
+		FF0115401E1C9B2C00F11B26 /* RegionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF01153F1E1C9B2C00F11B26 /* RegionsViewController.swift */; };
 		FF0115431E1C9B2C00F11B26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0115411E1C9B2C00F11B26 /* Main.storyboard */; };
-		FF0115451E1C9B2C00F11B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0115441E1C9B2C00F11B26 /* Assets.xcassets */; };
 		FF0115481E1C9B2C00F11B26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0115461E1C9B2C00F11B26 /* LaunchScreen.storyboard */; };
+		FF2E5C0F1E1DA4B80072BD4B /* RegionAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2E5C0E1E1DA4B80072BD4B /* RegionAnnotationView.swift */; };
+		FF2E5C111E1DB2A60072BD4B /* AssetCatalog.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF2E5C101E1DB2A60072BD4B /* AssetCatalog.xcassets */; };
+		FFC5EF9C1E1CDA1C0047F12C /* RegionAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5EF9B1E1CDA1C0047F12C /* RegionAnnotation.swift */; };
+		FFEBCC721E1E483C00A97631 /* Geofencing.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FFEBCC711E1E483C00A97631 /* Geofencing.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FF01153A1E1C9B2C00F11B26 /* TMT_Geofencing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMT_Geofencing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF01153D1E1C9B2C00F11B26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF01153F1E1C9B2C00F11B26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF01153F1E1C9B2C00F11B26 /* RegionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionsViewController.swift; sourceTree = "<group>"; };
 		FF0115421E1C9B2C00F11B26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FF0115441E1C9B2C00F11B26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF0115471E1C9B2C00F11B26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF0115491E1C9B2C00F11B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF2E5C0E1E1DA4B80072BD4B /* RegionAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegionAnnotationView.swift; sourceTree = "<group>"; };
+		FF2E5C101E1DB2A60072BD4B /* AssetCatalog.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AssetCatalog.xcassets; sourceTree = "<group>"; };
+		FFC5EF9B1E1CDA1C0047F12C /* RegionAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegionAnnotation.swift; sourceTree = "<group>"; };
+		FFEBCC711E1E483C00A97631 /* Geofencing.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Geofencing.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				FF01153D1E1C9B2C00F11B26 /* AppDelegate.swift */,
-				FF01153F1E1C9B2C00F11B26 /* ViewController.swift */,
+				FF01153F1E1C9B2C00F11B26 /* RegionsViewController.swift */,
+				FFEBCC711E1E483C00A97631 /* Geofencing.gpx */,
+				FF2E5C0E1E1DA4B80072BD4B /* RegionAnnotationView.swift */,
+				FFC5EF9B1E1CDA1C0047F12C /* RegionAnnotation.swift */,
 				FF0115411E1C9B2C00F11B26 /* Main.storyboard */,
-				FF0115441E1C9B2C00F11B26 /* Assets.xcassets */,
 				FF0115461E1C9B2C00F11B26 /* LaunchScreen.storyboard */,
 				FF0115491E1C9B2C00F11B26 /* Info.plist */,
+				FF2E5C101E1DB2A60072BD4B /* AssetCatalog.xcassets */,
 			);
 			path = TMT_Geofencing;
 			sourceTree = "<group>";
@@ -124,8 +133,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFEBCC721E1E483C00A97631 /* Geofencing.gpx in Resources */,
+				FF2E5C111E1DB2A60072BD4B /* AssetCatalog.xcassets in Resources */,
 				FF0115481E1C9B2C00F11B26 /* LaunchScreen.storyboard in Resources */,
-				FF0115451E1C9B2C00F11B26 /* Assets.xcassets in Resources */,
 				FF0115431E1C9B2C00F11B26 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF0115401E1C9B2C00F11B26 /* ViewController.swift in Sources */,
+				FFC5EF9C1E1CDA1C0047F12C /* RegionAnnotation.swift in Sources */,
+				FF0115401E1C9B2C00F11B26 /* RegionsViewController.swift in Sources */,
 				FF01153E1E1C9B2C00F11B26 /* AppDelegate.swift in Sources */,
+				FF2E5C0F1E1DA4B80072BD4B /* RegionAnnotationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +314,7 @@
 				FF01154E1E1C9B2C00F11B26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
